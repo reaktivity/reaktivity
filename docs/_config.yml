@@ -19,3 +19,6 @@ highlighter: rouge
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Development settings
+livereload: true   # Browser will automatically refresh when a file is saved
