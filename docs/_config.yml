@@ -11,14 +11,23 @@ description: > # this means to ignore newlines until "baseurl:"
   Build shared memory microservices on any platform in any language
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: ""     # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
+theme: jekyll-theme-slate
 markdown: kramdown
 highlighter: rouge
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - CNAME
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
 
 # Development settings
 livereload: true   # Browser will automatically refresh when a file is saved
