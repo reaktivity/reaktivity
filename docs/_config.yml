@@ -15,19 +15,21 @@ url: ""     # the base hostname & protocol for your site, e.g. http://example.co
 
 # Build settings
 theme: jekyll-theme-slate
+permalink: pretty
 markdown: kramdown
 highlighter: rouge
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - CNAME
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+excerpt_separator: <!--more-->
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
 
 # Development settings
 livereload: true   # Browser will automatically refresh when a file is saved
