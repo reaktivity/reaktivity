@@ -1,5 +1,5 @@
-#project_title {
-    background-image: url($baseurl + "/assets/images/icon.png");
+header h1 {
+    background-image: url(../images/icon.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -13,4 +13,8 @@ body img {
 sub {
     font-size: 70%;
     vertical-align: sub;
+}
+
+aside#sidebar {
+	display:none
 }
