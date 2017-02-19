@@ -1,6 +1,5 @@
 ---
 ---
-$baseurl: "{{ site.baseurl }}";
 
 {% if site.theme %}
     @import "{{ site.theme }}";
