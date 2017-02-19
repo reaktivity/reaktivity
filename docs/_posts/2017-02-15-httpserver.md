@@ -5,13 +5,7 @@ authors: [jfallows]
 categories: [home]
 ---
 
-![Reaktivity logo]({{ site.url }}/assets/images/reaktivity.png)
-
-# Reaktive HttpServer
-
-## The Reaktivity Project 
-
-### Introduction
+## Reaktive HttpServer
 
 When monolithic applications are decomposed into microservices, the architecture must rely on network protocols to communicate between the distributed components. Therefore, when scaling microservices it is necessary to scale the entire application stack of networking protocols and microservices logic.
 
@@ -19,7 +13,7 @@ The Reaktivity Project uses shared memory streams to directly communicate betwee
 
 Recognizing that large systems can have 1000s of CPU cores, this technology can be deployed economically in the cloud to provide affordable real-time solutions.
 
-<!--more-->
+[//]: # (more)
 
 ### Status Quo
 
