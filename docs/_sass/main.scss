@@ -1,0 +1,16 @@
+#project_title {
+    background-image: url($baseurl + "/assets/images/icon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+body img {
+    display: block;
+    margin: 0 auto;
+}
+
+sub {
+    font-size: 70%;
+    vertical-align: sub;
+}
