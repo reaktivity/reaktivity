@@ -206,6 +206,7 @@ DEPENDENCIES
   github-pages (= 123)
   jekyll-livereload
   jekyll-optional-front-matter
+  json
 
 BUNDLED WITH
    1.14.4
