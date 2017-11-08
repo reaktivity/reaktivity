@@ -1,4 +1,4 @@
-{% assign sorted_pages = (site.posts | sort: 'date') %}
+{% assign sorted_pages = site.posts | sort: 'date' %}
 {% for post in sorted_pages reversed %}
 {% if post.categories contains 'home' %}
   {{ post.excerpt }}
