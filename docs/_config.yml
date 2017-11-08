@@ -3,7 +3,8 @@ title: Reaktivity
 description: High performance, shared memory microservices
 baseurl: ""
 url: ""
-google_analytics: UA-1771436-15
+google_analytics: UA-92246880-1
+github.repository_url: https://github.com/reaktivity
 
 # build settings
 theme: jekyll-theme-architect

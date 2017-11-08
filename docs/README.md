@@ -6,11 +6,11 @@ Install
 $ bundle install
 ```
 
-Preview Locally
-===============
+Preview
+=======
 
 ```bash
 $ jekyll serve
 ```
 
-Open a browser and navigate to http://localhost:4000/ to preview site.
+Preview site at [http://localhost:4000/](http://localhost:4000/).
