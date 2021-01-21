@@ -1,6 +1,6 @@
 # site settings
 title: Reaktivity
-description: High performance, shared memory microservices
+description: High performance protocol transformation
 baseurl: ""
 url: ""
 google_analytics: UA-92246880-1
