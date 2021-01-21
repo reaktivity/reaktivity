@@ -7,6 +7,5 @@ versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 gem 'github-pages', versions['github-pages']
 
 group :jekyll_plugins do
-    gem 'jekyll-livereload'               # https://github.com/RobertDeRose/jekyll-livereload
     gem 'jekyll-optional-front-matter'    # https://github.com/benbalter/jekyll-optional-front-matter
 end
