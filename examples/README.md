@@ -1,5 +1,5 @@
 # Reaktivity Examples
 
-[TCP echo](examples/tcp.echo)
+[TCP echo](tcp.echo)
 
-[TCP reflect](examples/tcp.reflect)
+[TCP reflect](tcp.reflect)
