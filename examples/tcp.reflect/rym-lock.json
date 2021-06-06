@@ -1,0 +1,14 @@
+
+{
+    "dependencies": [
+        "org.reaktivity:reaktor:develop-SNAPSHOT",
+        "org.reaktivity:nukleus-echo:develop-SNAPSHOT",
+        "org.reaktivity:nukleus-fan:develop-SNAPSHOT",
+        "org.reaktivity:nukleus-tcp:develop-SNAPSHOT",
+        "org.reaktivity:ry:develop-SNAPSHOT",
+        "org.reaktivity:ry-start:develop-SNAPSHOT"
+    ],
+    "repositories": [
+        "https://repo1.maven.org/maven2/"
+    ]
+}

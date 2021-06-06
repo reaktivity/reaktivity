@@ -1,0 +1,21 @@
+{
+  "repositories":
+  [
+    "https://repo1.maven.org/maven2/"
+  ],
+
+  "imports":
+  [
+    "org.reaktivity:ry-bom:develop-SNAPSHOT"
+  ],
+
+  "dependencies":
+  [
+    "org.reaktivity:reaktor",
+    "org.reaktivity:nukleus-echo",
+    "org.reaktivity:nukleus-fan",
+    "org.reaktivity:nukleus-tcp",
+    "org.reaktivity:ry",
+    "org.reaktivity:ry-start"
+  ]
+}
