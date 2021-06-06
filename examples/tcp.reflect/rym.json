@@ -6,7 +6,7 @@
 
   "imports":
   [
-    "org.reaktivity:ry-bom:develop-SNAPSHOT"
+    "org.reaktivity:ry-bom:0.625"
   ],
 
   "dependencies":

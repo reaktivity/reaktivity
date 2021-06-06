@@ -1,11 +1,11 @@
 #!/bin/sh
-localPath="$HOME/.m2/repository/org/reaktivity/rym/0.2/rym-0.2.jar"
-wrappedPath=".rym/wrapper/rym-0.2.jar"
-wrappedURL="https://repo.maven.apache.org/maven2/org/reaktivity/rym/0.2/rym-0.2.jar"
+localPath="$HOME/.m2/repository/org/reaktivity/rym/0.4/rym-0.4.jar"
+wrappedPath=".rym/wrapper/rym-0.4.jar"
+wrappedURL="https://repo.maven.apache.org/maven2/org/reaktivity/rym/0.4/rym-0.4.jar"
 if [ ! -r "$wrappedPath" ]; then
+mkdir -p `dirname $wrappedPath`
 if [ -r "$localPath" ]; then
 echo $wrappedPath not found, copying from $localPath
-mkdir -p `dirname $wrappedPath`
 cp $localPath $wrappedPath
 else
 echo $wrappedPath not found, downloading from $wrappedURL
