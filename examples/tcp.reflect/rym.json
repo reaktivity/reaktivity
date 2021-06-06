@@ -6,7 +6,7 @@
 
   "imports":
   [
-    "org.reaktivity:ry-bom:0.625"
+    "org.reaktivity:ry-bom:0.627"
   ],
 
   "dependencies":
