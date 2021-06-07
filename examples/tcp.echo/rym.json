@@ -6,7 +6,7 @@
 
   "imports":
   [
-    "org.reaktivity:ry-bom:0.628"
+    "org.reaktivity:ry-bom:0.629"
   ],
 
   "dependencies":
@@ -16,6 +16,7 @@
     "org.reaktivity:nukleus-tcp",
     "org.reaktivity:ry",
     "org.reaktivity:ry-start",
-    "org.reaktivity:ry-tune"
+    "org.reaktivity:ry-tune",
+    "org.reaktivity:ry-stop"
   ]
 }
