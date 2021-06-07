@@ -1,12 +1,13 @@
 
 {
     "dependencies": [
-        "org.reaktivity:reaktor:0.166",
+        "org.reaktivity:reaktor:0.167",
         "org.reaktivity:nukleus-echo:0.25",
         "org.reaktivity:nukleus-fan:0.24",
         "org.reaktivity:nukleus-tcp:0.113",
         "org.reaktivity:ry:0.57",
-        "org.reaktivity:ry-start:0.1"
+        "org.reaktivity:ry-start:0.3",
+        "org.reaktivity:ry-tune:0.1"
     ],
     "repositories": [
         "https://repo1.maven.org/maven2/"
