@@ -1,4 +1,4 @@
-# tcp.echo
+# tcp.reflect
 Listens on tcp port `12345` and will echo back whatever is sent to the server, broadcasting to all clients.
 
 ### Requirements
