@@ -6,7 +6,7 @@
 
   "imports":
   [
-    "org.reaktivity:ry-bom:0.629"
+    "org.reaktivity:ry-bom:0.634"
   ],
 
   "dependencies":
@@ -17,6 +17,7 @@
     "org.reaktivity:ry",
     "org.reaktivity:ry-start",
     "org.reaktivity:ry-tune",
+    "org.reaktivity:ry-load",
     "org.reaktivity:ry-stop"
   ]
 }

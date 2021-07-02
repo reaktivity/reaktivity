@@ -1,3 +1,4 @@
 reaktor.streams.buffer.capacity=134217728
 reaktor.buffer.pool.capacity=134217728
 nukleus.tcp.window.threshold=10
+reaktor.verbose=true
