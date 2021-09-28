@@ -1,0 +1,22 @@
+{
+    "bindings":
+    [
+        {
+            "entry": "tcp#1",
+            "type" : "tcp",
+            "kind": "SERVER",
+            "options":
+            {
+                "host": "0.0.0.0",
+                "port": 12345,
+                "backlog": 1000
+            },
+            "exit": "echo#1"
+        },
+        {
+            "entry": "echo#1",
+            "type" : "echo",
+            "kind": "SERVER"
+        }
+    ]
+}

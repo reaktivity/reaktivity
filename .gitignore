@@ -3,3 +3,5 @@ _site/
 .jekyll-metadata
 .rym/
 .ry/
+ry
+.DS_Store
