@@ -4,7 +4,6 @@ description: High performance protocol translation
 logo: assets/images/icon.png
 baseurl: ""
 url: ""
-google_analytics: UA-92246880-1
 github:
   repository_url: https://github.com/reaktivity
 
