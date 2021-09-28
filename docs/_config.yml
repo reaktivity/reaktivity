@@ -1,6 +1,7 @@
 # site settings
 title: Reaktivity
 description: High performance protocol translation
+logo: assets/images/icon.png
 baseurl: ""
 url: ""
 google_analytics: UA-92246880-1
